@@ -1,3 +1,0 @@
-[submodule "vendor/github.com/julienschmidt/httprouter"]
-	path = vendor/github.com/julienschmidt/httprouter
-	url = https://github.com/julienschmidt/httprouter.git

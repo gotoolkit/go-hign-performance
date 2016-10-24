@@ -1,0 +1,12 @@
+{
+	"ImportPath": "github.com/llitfkitfk/GoHighPerformance",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v74",
+	"Deps": [
+		{
+			"ImportPath": "github.com/julienschmidt/httprouter",
+			"Comment": "v1.1-37-g59934fa",
+			"Rev": "59934fa0c2a7f256261ac927b5b96f38f1115597"
+		}
+	]
+}

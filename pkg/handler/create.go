@@ -10,6 +10,16 @@ type CreateHandler struct {
 	db db.DB
 }
 
+type Test string
+
+type Inter interface {
+	Implement()
+}
+
+func (t Test) Implement()  {
+
+}
+
 func NewCreateHandler(db db.DB) *CreateHandler {
 	return &CreateHandler{db: db}
 }

@@ -14,6 +14,30 @@ type User struct {
 }
 
 func main() {
+	strs := make([]*string, 10)
+	for key, _ := range strs {
+		v := "sdfse"
+		strs[key] = &v
+	}
+	for _, value := range strs {
+		log.Println(*value)
+	}
+
+	change(strs)
+
+	for _, value := range strs {
+		log.Println(*value)
+	}
+
+
+}
+
+func change(strs []*string)  {
+	v := "123"
+	strs[2] = &v
+}
+
+func constantDemo() {
 	var a int
 
 	for a := 0; a < 10; a++ {

@@ -22,14 +22,12 @@ func gen(ctx context.Context) <-chan int {
 }
 
 func main() {
-
 	ctx, cancel := context.WithCancel(context.Background())
-
-	defer cancel()
+	//defer cancel()
 
 	for n := range gen(ctx) {
 		fmt.Println(n)
-		if n == 5 {
+		if n == 105 {
 			cancel()
 			break
 		}

@@ -1,7 +1,7 @@
 {
 	"ImportPath": "github.com/llitfkitfk/GoHighPerformance",
 	"GoVersion": "go1.7",
-	"GodepVersion": "v74",
+	"GodepVersion": "v75",
 	"Deps": [
 		{
 			"ImportPath": "github.com/gorilla/mux",

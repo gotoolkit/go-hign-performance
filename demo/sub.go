@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"context"
 	"os"
-	"github.com/llitfkitfk/GoHighPerformance/pkg/subcommands"
+	"github.com/gotoolkit/subcommands"
 )
 
 type printCmd struct {
